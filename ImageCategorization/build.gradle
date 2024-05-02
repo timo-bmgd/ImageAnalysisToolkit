@@ -1,0 +1,56 @@
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "org.openjfx:javafx-plugin:0.0.10"
+  }
+}
+
+plugins {
+	id 'java'
+	id 'eclipse'
+	id 'idea'
+	id 'application'
+}
+
+// where to get the dependencies
+repositories {
+    mavenCentral()
+}
+
+// no support for java 9 and 10
+if(JavaVersion.current().isJava10() || JavaVersion.current().isJava9()) {
+	throw new GradleException('Java 9 and 10 are not supported. Please use Java 8 or 11 and above.')
+}
+		
+// Install JavaFX for any Java 11 version or higher
+if(JavaVersion.current().compareTo(JavaVersion.VERSION_11) >= 0) {
+	apply plugin: "org.openjfx.javafxplugin"
+	
+	dependencies {
+
+		// efficient image grid for java 11
+		implementation group: 'org.controlsfx', name: 'controlsfx', version: '11.1.1'
+	}
+
+	javafx {
+	    modules = [ 'javafx.controls', 'javafx.fxml' ]
+	}
+	
+	run {
+	    // Temporal fix for Eclipse with JDK 1.8 and Windows
+	    if (osdetector.os == 'windows') {
+	        systemProperty "java.library.path", System.getProperty("java.io.tmpdir")
+	    }
+	}
+} else {
+
+	dependencies {
+
+		// efficient image grid for java 8
+		implementation group: 'org.controlsfx', name: 'controlsfx', version: '8.40.18'
+	}
+}

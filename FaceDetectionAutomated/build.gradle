@@ -1,0 +1,59 @@
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "org.openjfx:javafx-plugin:0.0.8"
+  }
+}
+
+plugins {
+	id 'java'
+	id 'eclipse'
+	id 'idea'
+	id 'application'
+}
+
+// Zeichenenkoding
+tasks.withType(AbstractCompile)*.options*.encoding = "UTF-8"
+
+// Java Kompatibilität
+sourceCompatibility = targetCompatibility = 1.8
+
+// Wo sollen Abhängigkeiten nachgeschaut werden
+repositories {
+    mavenCentral()
+	maven { 
+		url 'http://maven.visual-computing.com/'
+		allowInsecureProtocol = true 
+	}
+}
+
+// Abhängigkeiten
+dependencies {
+	implementation 'de.htw.ba:facedetection:1.0'		
+}
+
+// minimal gradle version
+wrapper {
+    gradleVersion = '7.3'
+    distributionUrl = distributionUrl.replace("bin", "all")
+}
+		
+// Install JavaFX for any Java 11 version or higher
+if(JavaVersion.current().compareTo(JavaVersion.VERSION_11) >= 0) {
+	apply plugin: "org.openjfx.javafxplugin"
+	
+	javafx {
+	    modules = [ 'javafx.controls', 'javafx.fxml' ]
+	}
+	
+	run {
+	    // Temporal fix for Eclipse with JDK 1.8 and Windows
+	    if (osdetector.os == 'windows') {
+	        systemProperty "java.library.path", System.getProperty("java.io.tmpdir")
+	    }
+	}
+}

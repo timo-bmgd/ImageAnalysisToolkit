@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae91da37-15cd-49f7-818b-d7cbc3637010" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZMIfL7g2V394FE1hhLovkXBDuu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/de/htw/ba/ue04/controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.htw.ba.ue04.facedetection" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.htw.ba.ue04.facedetection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Ue04_Vorlage (1)">
+    <configuration name="Ue04_Vorlage (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.htw.ba.ue04.Ue04_Vorlage" />
+      <module name="BA_Ue04_TIMO_BOOMGAARDEN.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.htw.ba.ue04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ue04_Vorlage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.htw.ba.ue04.Ue04_Vorlage" />
+      <module name="BA_Ue04_TIMO_BOOMGAARDEN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.htw.ba.ue04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerticalWeakClassifierTest.matchingAtWithGrayImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BA_Ue04_TIMO_BOOMGAARDEN.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.htw.ba.ue04.facedetection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.htw.ba.ue04.facedetection" />
+      <option name="MAIN_CLASS_NAME" value="de.htw.ba.ue04.facedetection.VerticalWeakClassifierTest" />
+      <option name="METHOD_NAME" value="matchingAtWithGrayImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionDemo.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/SelectionDemo.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VerticalWeakClassifierTest.matchingAtWithGrayImage" />
+        <item itemvalue="JAR Application.SelectionDemo.jar" />
+        <item itemvalue="Application.Ue04_Vorlage (1)" />
+        <item itemvalue="Application.Ue04_Vorlage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae91da37-15cd-49f7-818b-d7cbc3637010" name="Changes" comment="" />
+      <created>1702225625232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702225625232</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/htw/ba/ue04/controller/FaceDetectionBase.java</url>
+          <line>418</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/htw/ba/ue04/controller/FaceDetectionBase.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/htw/ba/ue04/controller/FaceDetectionBase.java</url>
+          <line>421</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/htw/ba/ue04/controller/FaceDetectionBase.java</url>
+          <line>427</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/htw/ba/ue04/facedetection/VerticalWeakClassifier.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.htw.ba/facedetection/1.1/d34b3f8a63f13f69fcc4c10eaece2e83f46f2494/facedetection-1.1-sources.jar!/de/htw/ba/facedetection/StrongClassifier.java</url>
+          <line>87</line>
+          <properties class="de.htw.ba.facedetection.StrongClassifier" method="drawAt">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BA_Ue04_TIMO_BOOMGAARDEN$Ue04_Vorlage__1_.ic" NAME="Ue04_Vorlage (1) Coverage Results" MODIFIED="1703856424466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.htw.ba.ue04.*</FILTER>
+    </SUITE>
+  </component>
+</project>
